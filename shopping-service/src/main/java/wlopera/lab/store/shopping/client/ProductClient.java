@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import wlopera.lab.store.shopping.model.Product;
 
-// @FeignClient(name = "product-service")
+@FeignClient(name = "product-service")
 @RequestMapping(value = "/products")
 public interface ProductClient {
 
