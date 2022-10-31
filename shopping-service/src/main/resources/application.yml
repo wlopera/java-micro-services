@@ -49,4 +49,8 @@ spring:
       mode: always      
   config:
     import: "optional:configserver:"
-    
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
